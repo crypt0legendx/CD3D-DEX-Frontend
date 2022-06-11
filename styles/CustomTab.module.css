@@ -1,0 +1,15 @@
+.container {
+  color: #7689b0;
+  width: 70px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active {
+  color: white;
+  background: rgba(0, 0, 0, 0.37);
+  border-radius: 65px;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  padding: 5px;
+}

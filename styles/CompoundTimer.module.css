@@ -1,0 +1,33 @@
+.TimerOuterContainer {
+    margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.TimerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.TimerContainer span {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #ffd7e1;
+  text-transform: uppercase;
+}
+
+.TimerContainer h4 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 54px;
+  text-align: center;
+  color: #4cdc8f;
+}
+.colon {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  color: #fff1f5;
+}

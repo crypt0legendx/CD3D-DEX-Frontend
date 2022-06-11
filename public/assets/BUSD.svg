@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="BUSD-icon" transform="translate(-1127 -219)">
+    <circle id="Ellipse_191" data-name="Ellipse 191" cx="16" cy="16" r="16" transform="translate(1127 219)" fill="#f0b90b"/>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1131.036 223)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+        <path id="Path_5129" data-name="Path 5129" d="M71.164.71l2.964,3.036L66.664,11.21,63.7,8.246Z" transform="translate(-59.2 -0.71)" fill="#081123"/>
+        <path id="Path_5130" data-name="Path 5130" d="M75.664,63.71l2.964,3.036L66.664,78.71,63.7,75.746Z" transform="translate(-59.2 -59.21)" fill="#081123"/>
+        <path id="Path_5131" data-name="Path 5131" d="M3.664,126.71l2.964,3.036L3.664,132.71.7,129.746Z" transform="translate(-0.7 -117.71)" fill="#081123"/>
+        <path id="Path_5132" data-name="Path 5132" d="M138.664,126.71l2.964,3.036L129.664,141.71l-2.964-2.964Z" transform="translate(-117.7 -117.71)" fill="#081123"/>
+      </g>
+    </g>
+  </g>
+</svg>

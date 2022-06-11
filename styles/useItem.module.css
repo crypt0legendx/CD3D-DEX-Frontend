@@ -1,0 +1,17 @@
+.itemSec {
+  width: 100%;
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.itemSec .titleItem {
+  color: #2bd67b;
+}
+
+/* .itemSec p {
+  color: #ffd7e1;
+} */
+
+.itemSec .subtitleItem {
+  color: #ffd7e1;
+}

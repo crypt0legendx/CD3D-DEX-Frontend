@@ -1,0 +1,42 @@
+.faqOuter {
+  padding: 50px 0px;
+  background-color: #ffffff;
+}
+
+.faqOuter h4 {
+  color: #cc0136;
+  font-weight: 600;
+  text-align: center;
+}
+.faqOuter h6,
+.faqHead p {
+  color: #166c3d;
+  text-align: center !important;
+  font-weight: bold;
+}
+.faqHead {
+  margin-bottom: 20px;
+}
+.faqOuter span {
+  color: #162752;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.faqOuter p {
+  color: #435475;
+  font-size: 0.9rem;
+}
+
+.faqOuter li {
+  color: #435475;
+  line-height: 30px;
+}
+.faqOuter li::marker {
+  color: #75e4aa;
+}
+
+.accoFaq {
+  margin-bottom: 20px;
+}

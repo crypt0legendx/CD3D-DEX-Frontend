@@ -1,0 +1,68 @@
+.bidGridOuter {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 2px ;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+
+.bidGridItem {
+  background: transparent;
+  text-align: center;
+  padding: 20px 16px;
+  border: 1px solid #1B162C;
+  border-radius: 15px;
+  backdrop-filter: blur(30.056800842285156px);
+  --webkit-backdrop-filter: blur(30.056800842285156px);
+  background-color: rgba(255, 255, 255, 0.01);
+
+}
+.container {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  /* background: ; */
+  /* padding: 10px 10px; */
+}
+.bidGridItemSkeleton {
+  text-align: center;
+  width: 240px;
+  height: 92px;
+}
+.bidGridItemSkeleton p {
+  color: white;
+}
+.bidGridItemSkeleton h6 {
+  color: #ff0144;
+  font-weight: 600;
+  /* font-size: 18px; */
+}
+.bidGridItem p {
+  color: #ffd7e1;
+  font-size: 14px;
+}
+.bidGridItem h6 {
+  color: #ff0144;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .bidGridOuter {
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    column-gap: 0px;
+  }
+  .bidGridItem {
+    width: 350px;
+    height: 90px;
+  }
+  .bidGridItemSkeleton {
+    width: 350px;
+    height: 90px;
+  }
+}

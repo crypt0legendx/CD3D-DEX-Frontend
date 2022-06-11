@@ -1,0 +1,158 @@
+.countOuter {
+	background-color: #110c1c;
+	color: #ffffff;
+	padding: 80px 0px;
+	text-align: center;
+	border-radius: 100px 100px 0px 0px;
+	height: 60vh;
+	z-index: 22;
+}
+.topText p {
+	color: #a0edc4;
+}
+
+.bottomText h6 {
+	color: #ffffff;
+}
+.subDiv {
+	margin-top: 5%;
+}
+.subDiv div {
+	display: flex;
+	-moz-box-align: center;
+	align-items: center;
+	-moz-box-pack: center;
+	justify-content: space-between;
+	background: #292238;
+	width: 100%;
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.subDiv button {
+	padding: 12px;
+	background-color: #ff0144;
+	border-radius: 10px;
+	width: 100%;
+	max-width: 200px;
+	border: none;
+	color: #fff;
+	font-weight: 600;
+}
+.subDiv button:hover {
+	background-color: #ff0144;
+}
+
+.subDiv input {
+	border: none !important;
+	background: none;
+	outline: none !important;
+	width: 100%;
+	max-width: 500px;
+	color: #ffffff;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.timeOuter {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/* margin: 50px 0px;
+  text-align: center; */
+	margin: 20px auto;
+}
+.timeOuterNew {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	align-items: center;
+}
+.time {
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 28px;
+	text-align: right;
+	color: #ff0144;
+}
+
+.timeOuter h3 {
+	display: flex;
+	flex-direction: column;
+}
+.timeOuter h3 span {
+	color: #4cdc8f;
+	font-size: 5rem;
+	font-weight: bolder !important;
+}
+.timeMid {
+	font-size: 1.3rem;
+}
+.timeOuter2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 40px;
+}
+.timeOuter2 h5 {
+	color: white;
+}
+.timeOuter2 p {
+	color: white;
+}
+
+.timeOuter2 h3 span {
+	color: #4cdc8f;
+	font-size: 5rem;
+	font-weight: bolder !important;
+}
+
+.presaleBannerCounter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 10px;
+}
+
+.presaleBannerCounter h5 {
+	font-size: 18px;
+	font-weight: 900;
+	color: #000;
+}
+.presaleCounterOver {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 5px;
+}
+.presaleCounterOver h6 {
+	font-size: 2.3vh;
+	font-weight: 900;
+	color: #000;
+}
+
+.presaleCounterOver h5 {
+	font-size: 18px;
+	font-weight: 900;
+	color: #ff0144;
+	text-decoration: underline;
+}
+@media (max-width: 600px) {
+	.timeOuter h3 span {
+		font-size: 2rem;
+	}
+	.timeMid {
+		font-size: 1rem;
+	}
+	.timeOuter2 h5 {
+		font-size: 0.6rem;
+	}
+	.timeOuter2 p {
+		font-size: 0.4rem;
+	}
+	.timeOuter {
+		margin: 0px auto;
+	}
+}

@@ -1,0 +1,52 @@
+.useOuter {
+  background-color: #1d162d;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.useOuter h4 {
+  color: #2bd67b;
+}
+
+.useOuter h6,
+.useOuter p {
+  color: #ff799d;
+}
+
+.monCon {
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 470px;
+  margin: 0 auto;
+}
+
+.itemGrid {
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.useOuter button {
+  width: 100%;
+  max-width: 200px;
+  background-color: #ff0144;
+  padding: 15px 0px;
+  border-radius: 10px;
+  margin-top: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+.useOuter button:hover {
+  background-color: #ff0144;
+}
+
+@media (max-width: 768px) {
+  .monCon {
+    flex-direction: column;
+  }
+}

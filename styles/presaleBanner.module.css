@@ -1,0 +1,13 @@
+.presaleContainer {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  align-items: center;
+}
+
+.presaleContainer > h5 {
+font-size: 18px;
+font-weight: 900;
+
+}

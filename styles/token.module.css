@@ -1,0 +1,9 @@
+.tokenOuter {
+	/* background-color: #24173d; */
+	background-color: #1d162d;
+	background: linear-gradient(#261845 0%, rgba(38, 24, 69, 0) 100%),
+		linear-gradient(#162752 0%, rgba(22, 39, 82, 0) 100%),
+		linear-gradient(#261845 0%, rgba(38, 24, 69, 0) 100%), #1d162d;
+	height: 100%;
+	padding: 0px 0px;
+}

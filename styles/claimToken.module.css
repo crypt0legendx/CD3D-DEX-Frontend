@@ -1,0 +1,133 @@
+.container {
+  font-family: "Poppins", sans-serif;
+  background-color: #1d162d;
+}
+.mainBanner {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: -50px;
+}
+
+.bannerContent {
+  display: flex;
+  flex-direction: column;
+}
+.mainBanner svg {
+  font-size: 3rem;
+  margin-bottom: 60px;
+  margin-top: 50px;
+}
+
+.mainBanner h3 {
+  width: 100%;
+  max-width: 672px;
+  text-align: center;
+  padding-right: 50px;
+}
+.mainBanner h3 span {
+  color: #4cdc8f;
+  font-weight: bold;
+}
+.mainBanner p {
+  margin-bottom: 20px;
+  padding-right: 50px;
+}
+.mainBanner .LikeWin {
+  background-color: #ff0144;
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+.mainBanner .LikeWin:hover {
+  background-color: #ff0144;
+}
+.mainBanner .winningBtn {
+  background-color: #ff0144;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.mainBanner .LrnMore {
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.mainBanner .LrnMore svg {
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-left: 5px;
+  margin-top: 0;
+}
+
+.bannerInner {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 4%;
+  width: 50%;
+}
+
+.bannerVideo > div {
+  width: 100% !important;
+  height: 40vh !important;
+  margin-top: 50px;
+  /* margin: 0px 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerVideo iframe {
+  width: 100%;
+  border-radius: 15px;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .mainBanner h3 {
+    padding: 0px 10px;
+    font-size: 2rem !important;
+  }
+  .mainBanner p {
+    padding: 0px 10px;
+  }
+  .mainBanner .LikeWin {
+    margin: 0px 10px;
+  }
+  .bannerInner {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+  .mainBanner {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    overflow: visible;
+    height: auto;
+  }
+
+  .mainBanner .LikeWin {
+    margin-bottom: 50px;
+  }
+  .bannerVideo > div {
+    width: 100% !important;
+    height: 40vh !important;
+    margin: 0px 10px;
+  }
+  .bannerVideo iframe {
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+  }
+}

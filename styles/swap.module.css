@@ -1,0 +1,89 @@
+.container {
+    background-color: #1d162d;
+}
+
+.container .container_wrapper {
+    width: 100%;
+    max-width: 1024px;
+    text-align: center !important;
+}
+
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    height: 100vh;
+    align-items: center;
+}
+
+.outerSubContainer {
+    width: 90%;
+    display: flex;
+    column-gap: 30px;
+}
+
+.leftContainer {
+    width: 60vw;
+    /* height: 70vh; */
+    /* background-color: yellow; */
+}
+
+.rightContainer {
+}
+
+.tabContainer {
+    background: #1d162d;
+    padding: 20px;
+    border-radius: 15px 15px 0px 0px;
+    color: #75e4aa;
+    backdrop-filter: blur(30.056800842285156px);
+    --webkit-backdrop-filter: blur(30.056800842285156px);
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+
+.swapSearchIcon {
+    padding: 7px !important;
+    border-radius: 12px !important;
+    background-color: #800022 !important;
+}
+
+.swapSearchIcon:hover {
+    background-color: #800022 !important;
+    box-shadow: rgba(128, 0, 34, 0.5) 0 3px 5px !important;
+}
+
+.tokenItem {
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+
+.tokenItem .typography1 {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #FFF1F5;
+}
+
+.tokenItem .typography2 {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #BAC4D7;
+}
+
+.tokenItem.active:hover {
+    background-color: #231e3d;
+}
+
+.tokenItem.active {
+    cursor: pointer;
+}
+
+.tokenItem.deactive {
+    cursor: not-allowed;
+    opacity: 0.3;
+
+}
+
+
+

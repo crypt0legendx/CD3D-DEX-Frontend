@@ -1,0 +1,63 @@
+.multiIconContainer {
+  position: relative;
+  height: 80px;
+  width: 80px;
+}
+
+.busdContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cd3dContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.textContainer {
+}
+
+.titleContainer {
+  display: flex;
+  /* align-items: center; */
+}
+.titleActive {
+  color: #eafbf3;
+  text-align: left;
+  font: normal normal medium 20px/90px Poppins;
+  letter-spacing: 0px;
+  color: #eafbf3;
+  font-size: 25px;
+}
+
+.titleInActive {
+  color: #7689b0;
+  text-align: left;
+  font: normal normal medium 20px/90px Poppins;
+  letter-spacing: 0px;
+  color: #7689b0;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.inativeContainer {
+  display: flex;
+  align-items: center;
+}
+
+.subTextContainer {
+  text-align: left;
+  font: normal normal medium 28px/90px Poppins;
+  letter-spacing: 0px;
+  color: #ff0144;
+  opacity: 1;
+  font-size: 35px;
+}
+
+.tabContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}

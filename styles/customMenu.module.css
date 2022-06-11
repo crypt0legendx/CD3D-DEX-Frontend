@@ -1,0 +1,66 @@
+.MenuItemContainer {
+  box-sizing: border-box;
+  /* padding: 10px; */
+  text-decoration: none;
+  cursor: pointer;
+}
+.MenuItem,
+.MenuItemDisabled {
+  margin: 0px 10px !important ;
+}
+.MenuItem > * {
+  color: white !important;
+  flex: 1;
+  font: normal normal medium Poppins;
+  width: 25rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.MenuItemDisabled > * {
+  color: white !important;     
+  flex: 1;
+  font: normal normal medium Poppins;
+  max-width: 25rem;
+  height: 60px;
+  opacity: 0.5 !important;
+  cursor: not-allowed;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.MenuItem:hover .title {
+  color: #75e4aa !important;
+}
+/* 
+.MenuItem > *:hover {
+  background-color: #081123;
+  transition: all 0.5s ease-in-out;
+  color: #75e4aa !important;
+  opacity: 1;
+  backdrop-filter: blur(21px);
+  -webkit-backdrop-filter: blur(1px);
+} */
+
+.MenuItem:hover {
+  border-radius: 15px;
+  background: transparent;
+  /* Note: currently only Safari supports backdrop-filter */
+  backdrop-filter: blur(20.69860076904297px);
+  --webkit-backdrop-filter: blur(20.69860076904297px);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.titleContainer {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+}
+.titleSubContainer {
+  padding: 5px;
+}

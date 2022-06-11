@@ -1,0 +1,83 @@
+.bidBeforeStatusContainer {
+	position: relative;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.curtainContainer {
+	position: relative;
+}
+
+.curtainContainer div {
+	width: 100%;
+}
+
+.curtainContainer img {
+	width: -webkit-fill-available;
+}
+
+.counterContainer {
+	box-sizing: border-box;
+	position: absolute;
+	width: 38vw;
+	top: 52%;
+	left: 19%;
+}
+
+.bidBeforeStatusContainer h3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	font-weight: 600;
+	font-size: 0.875rem;
+}
+
+.bidBeforeStatusContainer h3 span {
+	font-weight: bold;
+	font-size: 3.375rem;
+}
+.bidBeforeStatusContainer span {
+	color: white;
+}
+.typographyContainer h4 {
+	color: white;
+}
+.typographyContainer {
+	position: absolute;
+	top: 10%;
+	left: 35%;
+}
+
+.subtypographyContainer .subText {
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #ffd7e1;
+}
+.subtypographyContainer {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	width: 60%;
+}
+
+@media (max-width: 900px) {
+	.typographyContainer {
+		left: 33%;
+	}
+	.typographyContainer h4 {
+		color: white;
+		font-size: 20px;
+	}
+	.counterContainer {
+		top: 45%;
+		left: 35%;
+	}
+	.subtypographyContainer .subText {
+		font-size: 0.6rem;
+		line-height: 15px;
+	}
+}

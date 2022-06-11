@@ -1,0 +1,6 @@
+.formContainer {
+	padding: 4px !important;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}

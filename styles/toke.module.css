@@ -1,0 +1,89 @@
+.tokeOuter {
+  background-color: #110c1c;
+}
+
+.tokeOuter h4 {
+  color: #2bd67b;
+  text-align: center;
+}
+
+.tokeOuter h6,
+.tokeOuter p {
+  color: #ff799d;
+  text-align: center;
+}
+
+.tokeOuter h5 {
+  color: #ff0144;
+  font-weight: bold;
+  padding: 20px 0px;
+}
+
+.tokeOuter p,
+.tokeOuter li {
+  color: #ffd7e1;
+}
+
+.tokeOuter ul {
+  padding-left: 15px;
+}
+
+.tokeOuter p {
+  padding-top: 25px;
+}
+
+.tokeButton {
+  display: flex;
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+  padding: 50px 0px;
+  justify-content: space-between;
+}
+
+.tokeButton button {
+  color: #75e4aa;
+}
+
+.tokeCon p {
+  text-align: left;
+}
+
+.tokeButton button:first-child {
+  width: 100%;
+  max-width: 200px;
+  background-color: #ff0144;
+  color: #fff !important;
+  padding: 15px 0px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+.tokeButton button:first-child:hover {
+  background-color: #ff0144;
+  color: #fff !important;
+}
+
+.pieLabel {
+  color: #ff0144;
+}
+
+.pieChart {
+  height: 600px;
+}
+
+
+@media (max-width: 900px) {
+  .tokeOuter p {
+    padding-top: 0px;
+    text-align: center;
+  }
+  .tokeOuter h5 {
+    padding-bottom: 0;
+  }
+  .pieChart {
+    display: none;
+  }
+
+}

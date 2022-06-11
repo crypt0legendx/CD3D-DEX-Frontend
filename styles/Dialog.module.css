@@ -1,0 +1,189 @@
+.DialogContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.DialogContainer .DialogClose {
+    position: absolute;
+    color: #166C3D;
+    right: 30px;
+    top: 24px;
+}
+
+.DialogContainer .DialogErrorClose {
+    position: absolute;
+    color: #800022;
+    right: 30px;
+    top: 24px;
+}
+
+.DialogContainer .SubmittingContainer {
+    text-align: center;
+    height: 110px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.DialogContainer .Submitting {
+    font-size: 64px;
+    color: #1D9756;
+    animation: MoveUpDown 1s linear infinite;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        margin-bottom: 0;
+    }
+    80% {
+        margin-bottom: 48px;
+    }
+}
+
+.DialogContainer .DialogTitle {
+    color: #166C3D;
+    text-align: left;
+    font-size: 18px;
+}
+
+.DialogContainer .DialogErrorTitle {
+    color: #800022;
+    text-align: left;
+    font-size: 18px;
+}
+
+
+.DialogContainer .DialogDescription {
+    color: #0B4124;
+    text-align: left;
+    font-size: 12px;
+}
+
+.DialogContainer .DialogItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.DialogContainer .DialogItem .DialogLabel{
+    color: #0B4124;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.DialogContainer .DialogItem .DialogSpan{
+    color: #166C3D;
+    font-size: 14px;
+}
+
+.DialogContainer .DialogSubmit {
+    background-color: #1D9756;
+    border-radius: 12px;
+    padding: 10px 0;
+}
+
+.DialogContainer .DialogRetry {
+    background-color: #CC0136;
+    border-radius: 12px;
+    padding: 10px 0;
+}
+
+.DialogContainer .DialogInfoContainer{
+    display: flex;
+}
+
+.DialogContainer .DialogInfoContainer .Info{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.DialogContainer .DialogInfoContainer .Info .title_primary {
+    color: #166C3D;
+    font-size: 28px;
+    line-height: 1;
+}
+
+.DialogContainer .DialogInfoContainer .Info .description_primary{
+    color: #166C3D;
+    font-size: 15px;
+}
+
+.DialogContainer .DialogInfoContainer .Info .title_danger {
+    color: #CC0136;
+    font-size: 28px;
+    line-height: 1;
+}
+
+.DialogContainer .DialogInfoContainer .Info .description_danger{
+    color: #CC0136;
+    font-size: 15px;
+}
+
+
+.DialogContainer .DialogSubTitle{
+    color: #166C3D;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.DialogContainer .DialogErrorSubTitle{
+    color: #CC0136;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.DialogContainer .DialogErrorCaption{
+    color: #435475;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.DialogContainer .DialogBinance{
+    color: #CC0136;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.DialogContainer .Dialog_Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DialogContainer .Dialog_Footer .link{
+    margin-top: 10px;
+}
+
+.DialogContainer .Dialog_Footer .link a{
+    color: #1D9756;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+
+/*Farming Form*/
+.DialogFarmingForm{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.DialogFarmingForm .formLabel{
+    color: #CC0136;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,12 @@
+.tokenMBContainer {
+  display: none;
+  width: 100%;
+  height: 500;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 900px) {
+  .tokenMBContainer {
+    display: block;
+  }
+}

@@ -1,0 +1,13 @@
+.container {
+  height: 43px;
+  background: #800022;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+}

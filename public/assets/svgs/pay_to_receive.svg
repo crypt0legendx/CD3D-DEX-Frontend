@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Icon_feather-arrow-down-circle" data-name="Icon feather-arrow-down-circle" transform="translate(-2 -2)">
+    <path id="Path_5133" data-name="Path 5133" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z" fill="none" stroke="#75e4aa" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="noun-vertical-bidirectional-arrow-1916322" d="M191.456,117.594v11.143a.929.929,0,0,1-1.858,0v-8.9l-1.2,1.2a.929.929,0,0,1-1.314-1.313l2.787-2.786a.929.929,0,0,1,1.586.656Zm8.089,7.7a.929.929,0,0,0-1.314,0l-1.2,1.2v-8.9a.929.929,0,0,0-1.858,0v11.143a.929.929,0,0,0,1.586.656l2.787-2.786a.928.928,0,0,0,0-1.313Z" transform="translate(-175.314 -105.165)" fill="#75e4aa"/>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+.CdOuter {
+	background-color: #ffffff;
+	border-radius: 100px 100px 0px 0px;
+	padding: 50px 0px;
+	color: #fff;
+	text-align: center;
+}
+
+.CdOuter h4 {
+	color: #cc0136;
+	font-weight: 600;
+}
+
+.CdOuter h6 {
+	font-style: italic;
+	color: #166c3d;
+}
+
+.CdOuter p {
+	color: #166c3d;
+}
+
+.CdRow {
+	display: flex;
+	margin: 40px 0px;
+}
+
+.CdRow img {
+	width: 100%;
+}
+
+.whatCon {
+	width: 50%;
+	text-align: left;
+	padding: 0 40px;
+}
+.whatCon p {
+	margin-bottom: 30px;
+	color: #435475;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+.whatCon p:nth-child(2) {
+	margin-bottom: 0;
+}
+
+.whatCon ul {
+	padding-left: 20px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.whatCon ul li {
+	color: #435475;
+	font-size: 0.9rem;
+	line-height: 30px;
+	font-weight: 500;
+}
+
+.CdOuter button {
+	width: 100%;
+	max-width: 250px;
+	background-color: #ff0144;
+	padding: 15px 0px;
+	border-radius: 10px;
+	margin-top: 40px;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 1rem;
+}
+
+.CdOuter button:hover {
+	background-color: #ff0144;
+}
+
+@media (max-width: 991px) {
+	.CdRow {
+		flex-direction: column;
+	}
+	.CdRow img {
+		margin-bottom: 20px !important;
+	}
+	.whatCon {
+		width: 100%;
+	}
+}

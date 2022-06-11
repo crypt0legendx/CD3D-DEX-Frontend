@@ -1,0 +1,31 @@
+.socialOuter {
+  padding: 100px 0px;
+}
+.socialOuter h4 {
+  color: #2bd67b;
+}
+.socialOuter h6,
+.socialOuter p {
+  color: #ff799d;
+}
+
+.socialIcon p {
+  color: #ffffff !important;
+}
+
+.socialIconInner {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+}
+
+.socialIcon {
+  justify-content: center;
+}
+
+
+@media (max-width:900px) {
+  .socialOuter{
+    text-align: center;
+  } 
+}

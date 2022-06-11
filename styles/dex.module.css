@@ -1,0 +1,36 @@
+.dexSec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+
+  text-align: center;
+}
+
+.dexSec h4 {
+  color: #2bd67b;
+}
+
+.dexSec h6,
+.dexSec p {
+  color: #ff799d;
+}
+.itemGrid {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.dexSec button {
+  width: 100%;
+  max-width: 200px;
+  background-color: #ff0144;
+  padding: 15px 0px;
+  border-radius: 10px;
+  margin-top: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.dexSec button:hover {
+  background-color: #ff0144;
+}

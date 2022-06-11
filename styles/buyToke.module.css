@@ -1,0 +1,156 @@
+.buyTokeOuter {
+  width: 100%;
+  /* background: '#1D162D 0% 0% no-repeat'; */
+  margin: 25px 0px;
+  height: 100%;
+  min-height: 670px;
+  opacity: 1;
+  border-radius: 15px;
+  color: #75e4aa;
+  backdrop-filter: blur(30.056800842285156px);
+  --webkit-backdrop-filter: blur(30.056800842285156px);
+  background-color: rgba(0, 0, 0, 0.09);
+  box-sizing: border-box;
+}
+
+.quickColor {
+  color: #fff
+}
+
+.buyTokeOuter h6{
+  font-size: 20px;
+}
+
+.buyTokeOuter p{
+  font-size: 14px;
+}
+
+.buyTokenInner{
+  padding: 20px;
+}
+
+.downOuter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.downOuter img {
+  width: 100% !important;
+  max-width: 30px !important;
+}
+
+.bidPriceOuter {
+  margin-top: 25px;
+}
+
+.bidPriceOuter label {
+  font-size: 0.8rem;
+}
+.bidPriceOuter label span {
+  color: #7689b0;
+}
+
+.bidPriceInput {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1d162d;
+  margin: 10px 0px;
+  padding: 15px;
+  border: 1px solid #26164a;
+  border-radius: 10px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin: 4px 0px;
+
+  padding: 12px 12px;
+  background: transparent;
+  border: 1px solid #26164a;
+  /* Note: currently only Safari supports backdrop-filter */
+  backdrop-filter: blur(30.056800842285156px);
+  --webkit-backdrop-filter: blur(30.056800842285156px);
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.bidPriceInput input {
+  background: none;
+  border: none;
+  color: #fff;
+  outline: none;
+  width: 100%;
+  max-width: 200px;
+}
+
+.bidPriceInput .busdImage{
+  padding-left: 10px;
+}
+
+.bidPriceInput p {
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+}
+.bidPriceInput p img {
+  padding-left: 5px !important;
+  width: 100% !important;
+  min-width: 22px !important;
+}
+
+.bidPriceInput input::placeholder {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.bidPriceInput input[type='number']::-webkit-inner-spin-button,
+.bidPriceInput input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.amountMin {
+  display: flex;
+  color: #7689b0;
+  justify-content: space-between;
+}
+.tokenPriceContainer {
+  text-align: center;
+  color: #7689b0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.buyTokeOuter button {
+  width: 100%;
+  background-color: #ff0144;
+  padding: 15px 0px;
+  border-radius: 10px;
+  /* margin-top: 20px; */
+  margin-bottom: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.buyTokeOuter button:hover {
+  background-color: #ff0144;
+}
+.maxButton {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: #ff0144;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .buyTokeOuter {
+    width: 100%;
+  }
+}

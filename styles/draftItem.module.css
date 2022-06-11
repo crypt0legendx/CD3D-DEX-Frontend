@@ -1,0 +1,18 @@
+.draftItemSec {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px 20px;
+  height: auto;
+  min-height: 380px;
+}
+
+.draftItemSec h6 {
+  color: #800022 !important;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.draftItemSec p {
+  color: #435475 !important;
+  font-weight: 600;
+  line-height: 25px;
+}

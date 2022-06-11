@@ -1,0 +1,41 @@
+.btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.btn > button {
+  width: 100%;
+  padding: 15px 0px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.btn > button:hover {
+  background-color: #ff0144;
+}
+
+.btn > button {
+  width: 100%;
+  padding: 15px 0px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.active {
+  background-color: #ff0144 !important;
+  cursor: pointer;
+}
+
+.deactive {
+  background: #00000040 0% 0% no-repeat padding-box !important;
+  opacity: 0.3;
+  cursor: not-allowed !important;
+}

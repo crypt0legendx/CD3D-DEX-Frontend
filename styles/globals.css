@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: auto;
+}
+
+.main-container {
+    flex: 1;
+    width: 100%;
+    background-color: #1d162d;
+    background-image: url('../public/assets/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Slick Slider */
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #cc0136;
+}
+
+/* .slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
+}
+
+.slick-active {
+  opacity: 0.5;
+}
+
+.slick-current {
+  opacity: 1;
+} */
+.slick-prev,
+.slick-next {
+    color: #cc0136 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #cc0136 !important;
+}
+
+/* #pie {
+  height: 600px;
+} */
+
+.MuiMenu-paper {
+    backdrop-filter: blur(24px) !important;
+}
+
+.ReactModal__Overlay {
+    z-index: 999;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.popover {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}

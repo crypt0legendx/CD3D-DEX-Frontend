@@ -1,0 +1,25 @@
+
+.beforeLaunchTokenContainer{
+    background: transparent !important;
+    margin: 0px;
+    /* padding: 2px 20px; */
+}
+
+.beforeLaunchTokenDetail{
+    background: transparent !important;
+    margin: 0px;
+    padding: 2px 20px;
+}
+
+.beforeLaunchToken hr {
+    height: auto !important;
+    width: 2px;
+}
+
+.scrollBar::-webkit-scrollbar {
+    width: 0px !important;
+    scroll-behavior: smooth;
+}
+
+
+

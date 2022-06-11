@@ -1,0 +1,25 @@
+.customFormButton button {
+    background-color: #FF0144;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: none;
+    margin-top: 10px;
+}
+
+.customFormButton button:hover {
+    background-color: #FF0144;
+    box-shadow: rgba(255, 1, 69, 0.5) 0 3px 30px;
+}
+
+.customFormButton button.loading{
+    background-color: #1D162D;
+    box-shadow: none;
+}
+
+.customFormButton button.disabled{
+    background-color: #1D162D;
+    color: #FFFFFF55;
+}
+

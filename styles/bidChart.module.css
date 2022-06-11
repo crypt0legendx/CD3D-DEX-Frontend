@@ -1,0 +1,84 @@
+.bidChartOuter {
+  margin-top: 20px;
+  border-radius: 15px;
+  background: transparent;
+  position: relative;
+  min-height: 500px;
+  backdrop-filter: blur(30.056800842285156px);
+  --webkit-backdrop-filter: blur(30.056800842285156px);
+  background-color: rgba(255, 255, 255, 0.01);
+}
+.bidContainer {
+  display: flex;
+}
+
+.bidChartInnerLeft {
+  color: #eafbf3;
+  position: absolute;
+  top: 2%;
+  left: 12%;
+}
+
+.bidChartSecVideo {
+  position: absolute;
+  bottom: 0px;
+  height: 80%;
+  width: 100%;
+}
+
+.bidChartSecVideo iframe {
+  border-radius: 30px;
+}
+
+.bidChartSecVideo h5 {
+  color: #ff0144;
+}
+
+.bidChartInnerRight {
+  color: #eafbf3;
+  position: absolute;
+  top: 2%;
+  right: 42%;
+  z-index: 10;
+  text-align: center;
+}
+
+.bidChartInnerLeft h6 {
+  color: #ff0144;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.bidChartInnerRight h6 {
+  color: #ff0144;
+  font-weight: 600;
+}
+.bidChartInnerRight p {
+  color: #75e4aa;
+}
+
+.rightCurtain {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 10;
+}
+
+.leftCurtain {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+}
+
+.areaChart {
+  position: absolute;
+  bottom: 0%;
+  left: 7%;
+}
+
+@media (max-width: 900px) {
+  .bidChartInnerRight {
+    right: 30%;
+  }
+}

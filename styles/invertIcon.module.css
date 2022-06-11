@@ -1,0 +1,10 @@
+.invertIconContainer {
+  background-color: #7689b0;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+}

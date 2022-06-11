@@ -1,0 +1,196 @@
+.container {
+    font-family: "Poppins", sans-serif;
+    row-gap: 50px;
+    height: 100%;
+    min-height: 100vh;
+    opacity: 1;
+}
+
+
+.bannerContainer {
+    height: 400px;
+    position: relative;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.bannerContainer .bannerWrapper {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.bannerContainer .bannerWrapper h1 {
+    color: #EAFBF3;
+    letter-spacing: 1px;
+}
+
+.bannerContainer .bannerWrapper h1.currency {
+    font-size: 40px;
+    color: #4CDC8F;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.bannerContainer .bannerWrapper span {
+    color: #BAC4D7;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.bannerImg {
+    position: absolute;
+    height: 350px;
+    right: 0;
+    top: 30px;
+    z-index: 9;
+    opacity: 0.4;
+}
+
+.subDiv {
+    margin-top: 40px;
+    position: relative;
+}
+
+.subDiv div {
+    display: flex;
+    height: 58px;
+    width: 100%;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: space-between;
+    background-color: #272a4a;
+    max-width: 550px;
+    padding-left: 5px;
+    padding-right: 10px;
+    border-radius: 12px;
+}
+
+.subDiv button {
+    height: 45px;
+    padding: 12px;
+    background-color: #FF0144;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 150px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.subDiv button:hover {
+    background-color: #ff0144;
+}
+
+.subDiv input {
+    border: none !important;
+    background: none;
+    outline: none !important;
+    width: 100%;
+    max-width: 500px;
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.farmingFormContainer {
+
+}
+
+.farmingFormContainer .form_wrapper {
+    width: 100%;
+}
+
+.farmingFormContainer .form_wrapper .farmingContent {
+    margin: 48px 24px !important;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background: radial-gradient(#1d1039, #150e25) no-repeat;
+    border-radius: 15px;
+    opacity: 1;
+    position: relative;
+}
+
+.farmingFormContainer .form_wrapper .farmingContent button {
+    background-color: #FF0144;
+    box-shadow: rgba(255, 1, 69, 0.6) 0 3px 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+}
+
+.farmingFormContainer .form_wrapper .farmingContent button.outlined{
+    background-color: transparent;
+    box-shadow: none !important;
+    border: 1px solid #FF0145;
+    color: #FF0145;
+}
+
+.farmingFormContainer .form_wrapper .farmingContent button:disabled {
+    box-shadow: none !important;
+    background-color: #302846 !important;
+    color: rgba(255, 255, 255, 0.3);
+
+}
+
+.farmingFormContainer .form_wrapper .farmingContent .form_image {
+    position: absolute;
+    left: 30px;
+    top: -30px;
+}
+
+.farmingFormContainer .form_wrapper .farmingContent .form_header {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.farmingFormContainer .form_wrapper .farmingContent .form_header .form_title1 {
+    font-size: 24px;
+    color: #75E4AA;
+}
+
+.farmingFormContainer .form_wrapper .farmingContent .form_header .form_title2 {
+    margin-top: 10px;
+    font-size: 28px;
+    color: #CAF4DE;
+    font-weight: bold;
+}
+
+.farmingFormContainer .form_wrapper .farmingContent .form_header .form_subtitle {
+    font-size: 14px;
+    color: #7689B0;
+}
+
+.farmingFormContainer .form_wrapper .farmingContent .form_divider {
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    border: #242044 1px solid;
+    margin-bottom: 20px;
+}
+
+.farmingFormContainer .form_wrapper .farmingContent .form_body {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.farmingFormContainer .form_wrapper .farmingContent .form_row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.farmingFormContainer .form_wrapper .farmingContent .form_row .row_label {
+    font-size: 14px;
+    color: #BAC4D7;
+}
+
+.farmingFormContainer .form_wrapper .farmingContent .form_row .row_label a {
+    color: #75E4AA;
+    text-decoration: underline;
+}
+
+
